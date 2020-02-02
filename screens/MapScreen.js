@@ -89,7 +89,7 @@ const styles = StyleSheet.create({
   map: {
     flex: 1,
     width: 360,
-    maxHeight: 300,
+    maxHeight: 700,
     flexDirection: "column",
     backgroundColor: "transparent",
     justifyContent: "flex-start"

@@ -23,7 +23,7 @@ export default class DetailScreen extends React.Component {
     const stationCode = velibInfo.station_code;
     const stationName = velibInfo.station_name;
     const creditCard = velibInfo.creditcard;
-
+    const dispo = velibInfo.nbedock;
     const paris = {
       latitude: velibInfo.geo[0],
       longitude: velibInfo.geo[1]
@@ -52,6 +52,7 @@ export default class DetailScreen extends React.Component {
         <Text style={styles.txt}>Name : {velibInfo.station_name}</Text>
         <Text style={styles.txt}>Code : {velibInfo.station_code}</Text>
         <Text style={styles.txt}>Credit card : {velibInfo.creditcard}</Text>
+        <Text style={styles.txt}>Disponibility : {velibInfo.nbfreeedock}</Text>
       </View>
     );
   }

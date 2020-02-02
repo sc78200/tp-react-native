@@ -28,13 +28,8 @@ export default class ListScreen extends React.Component {
 
   handleClick(item) {
     const stationName = item.fields.station_name;
-    console.log("Nom : " + stationName);
-
     const stationState = item.fields.station_state;
-    console.log("Etat de la station : " + stationState);
-
     const Position = item.fields.geo;
-    console.log("Position  : " + Position);
   }
 
   componentDidMount() {
